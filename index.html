@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>
+        Form đăng Ký
+    </title>
+    <h1>
+        <center>Đăng Ký</center>
+    </h1>
+    <hr>
+
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Trường bắt buộc*</li>
+                    </ul>
+                </td>
+                <td></td>
+                <td>
+                    <form>
+                        <input type="radio" name="gender" value="Cá Nhân" />Cá Nhân
+                        <input type="radio" name="gender" value="Tổ Chức/Công ty">Tổ chức/Công ty
+                    </form>
+                </td>
+            </tr>
+            <td></td>
+            <tr>
+                <td></td>
+                <td>
+                    <label>Họ và tên*</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Nhập vào họ tên của bạn" id="Họ và tên" size="40"
+                        name="Họ và tên" /><br>
+                </td>
+            </tr>
+            <td></td>
+            <tr>
+                <td></td>
+                <td>
+                    <label>Số điện thoại*</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Nhập vào số điện thoại của bạn" size="40" id="Số điện thoại"
+                        name="Số điện thoại" /><br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <label>Ngày sinh</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Nhập ngày sinh của bạn" size="40" id="Ngày sinh"
+                        name="Ngày sinh" /><br>
+                </td>
+            </tr>
+            <td></td>
+            <tr>
+                <td></td>
+                <td>
+                    <label for="Địa chỉ">Địa chỉ</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="nhập địa chỉ của bạn" size="40" id="Địa chỉ" name="Địa chỉ" /><br>
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="TP.HCM">
+                    <label>TP.HCM:</label>
+                    <select style="width: 150px">
+                        <option>chọn Quận trong TP</option>
+                        <option>Quận Tân Bình</option>
+                        <option>Quận Bình Tân</option>
+                    </select>
+                    <br>
+
+
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="radio" name="gender" value="Tỉnh khác">
+                    <label>Tỉnh khác:</label>
+                    <select style="width: 150px">
+                        <option>Chọn các tỉnh thành</option>
+                        <option>Đà Nẵng</option>
+                        <option>Hội An</option>
+                    </select>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <label>Giới tính</label>
+                </td>
+                <td>
+                    <form>
+                        <input type="radio" name="gender" value="Nam" />Nam
+                        <input type="radio" name="gender" value="Nữ">Nữ
+                    </form>
+                </td>
+                <td></td>
+            <tr>
+                <td></td>
+                <td>
+                    <label>Email</label>
+                </td>
+                <td>
+                    <input type="email" placeholder="Nhập địa chỉ email của bạn" size="40" id="Email"
+                        name="Email" /><br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <label for="Mật Khẩu">Mật Khẩu</label>
+                </td>
+                <td>
+                    <input type="password" placeholder="Nhập mật khẩu của bạn" size="40" name="password" id="password">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <label for="Nhập lại mật khẩu">Nhập lại mật khẩu</label>
+                </td>
+                <td>
+                    <input type="password" placeholder="Nhập lại mật khẩu của bạn" size="40" name="Nhập lại mật khẩu"
+                        id="Nhập lại mật khẩu">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="reset" name="btreset" value="Reset">
+                    <input type="submit" name="btok" value="OK">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
